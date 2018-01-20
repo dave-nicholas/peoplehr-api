@@ -2,7 +2,21 @@
   "name": "peoplehr-api",
   "license": "WTFPL",
   "version": "0.1.0",
+  "main": "peoplehr-api.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "engines": {
+    "node": ">=6.4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dave-nicholas/peoplehr-api.git"
+  },
   "dependencies": {
     "node-fetch": "^1.7.3"
+  },
+  "devDependencies": {
+    "jest": "^22.1.4"
   }
 }
