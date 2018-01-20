@@ -1,0 +1,8 @@
+{
+  "name": "peoplehr-api",
+  "license": "WTFPL",
+  "version": "0.1.0",
+  "dependencies": {
+    "node-fetch": "^1.7.3"
+  }
+}
