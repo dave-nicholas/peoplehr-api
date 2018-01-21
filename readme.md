@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/dave-nicholas/peoplehr-api.svg?branch=master)](https://travis-ci.org/dave-nicholas/peoplehr-api)
+
 # peoplehr-api
 
 A small library for use with the peoplehr api for use with Node.js
