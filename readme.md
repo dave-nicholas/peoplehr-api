@@ -2,7 +2,7 @@
 
 # peoplehr-api
 
-A small library for use with the peoplehr api for use with Node.js
+A small library for use with the peoplehr api.
 
 ## Installation
 
@@ -22,6 +22,8 @@ You can pass in the api key in the constructor.
 
 ```javascript
 const PeopleHRAPI = require('peoplehr-api');
+//or ES6
+import PeopleHRAPI from 'peoplehr-api';
 
 const phr = new PeopleHRAPI('api key.....'); //or configure set process.env
 
@@ -30,7 +32,7 @@ phr.query(
   'GetAllEmployeeDetail', //The method to call
   { IncludeLeavers: false } //The payload
   )
-  .then(res => console.log(res));
+  .then(jsonResponse => console.log(jsonResponse));
 ```
 
 A list of the availabel endpoints can be found at [here](http://apidocs.peoplehr.com/).
