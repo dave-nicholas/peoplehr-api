@@ -28,7 +28,7 @@ import PeopleHRAPI from 'peoplehr-api';
 const phr = new PeopleHRAPI('api key.....'); //or configure set process.env
 
 phr.query(
-  'Employee', //The endpointto query 
+  'Employee', //The endpoint to query 
   'GetAllEmployeeDetail', //The method to call
   { IncludeLeavers: false } //The payload
   )
